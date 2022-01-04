@@ -1,0 +1,94 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 20px;
+}
+.flexiablecontainer {
+    margin: 0;
+    display: flex;
+}
+
+.headertop {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.half-with {
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+
+}
+
+.header-left {
+    padding: 20px;
+}
+
+.header-left h1,
+h2 {
+    font-size: 50px;
+}
+
+.header-left h4 {
+    margin-top: 40px;
+}
+
+.developer-entity {
+    color: #f39f05;
+}
+
+.header-img img {
+    padding: 50px;
+    width: 80%;
+}
+
+.hirebutton {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, orange, tomato);
+    padding: 15px 40px;
+    border-radius: 15px;
+}
+
+.experience {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.experience .experienceitem {
+    border-radius: 20px;
+    margin: 10px 30px;
+    padding: 10px 30px;
+    width: 40%;
+    box-shadow: 5px 7px 40px gray;
+
+}
+
+#fullstack {
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.experience h3 {
+    color: #f39f05;
+}
+
+#newdeveloper {
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, red, yellow);
+    border-image-slice: 1;
+
+}
